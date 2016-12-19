@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<img src="demo.gif" title='Video Walkthrough' alt="Video Walkthrough" width="600" height="800" />
+<img src="demo.gif" title='Video Walkthrough' alt="Video Walkthrough" width="225"/>
 
 ## Notes
 
