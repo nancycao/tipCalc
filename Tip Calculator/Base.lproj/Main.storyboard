@@ -73,15 +73,14 @@
                                     <action selector="update:" destination="BYZ-38-t0r" eventType="valueChanged" id="IN9-K6-DqW"/>
                                 </connections>
                             </segmentedControl>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mkC-dl-ONe">
-                                <rect key="frame" x="185" y="95" width="97" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lge-rk-SSb">
+                                <rect key="frame" x="185" y="97" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
-                                    <action selector="calcTip2:" destination="BYZ-38-t0r" eventType="editingChanged" id="S2s-6W-Nq9"/>
-                                    <action selector="calcTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="GVF-S5-g4c"/>
+                                    <action selector="calcTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="zoJ-n5-eI2"/>
                                 </connections>
                             </textField>
                         </subviews>
@@ -106,7 +105,7 @@
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="billField" destination="mkC-dl-ONe" id="TMA-1r-pxF"/>
+                        <outlet property="billField" destination="lge-rk-SSb" id="fSI-JD-1SE"/>
                         <outlet property="tipControl" destination="jg8-89-ArV" id="spk-Cp-jmc"/>
                         <outlet property="tipLabel" destination="gus-2P-3Zq" id="5ml-cF-QDK"/>
                         <outlet property="totalLabel" destination="vKE-Tj-I2K" id="G2A-1f-yBA"/>
